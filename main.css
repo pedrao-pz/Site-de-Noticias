@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    bottom: 0%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+section .container h2{
+    margin-left: 16px;
+    font-size: 37px;
+}
+
+section{
+    display: inline-block;
+    padding: 16px;
+}
+
+section .articles article{
+    display: block;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section h2,
+.articles article{
+    padding-bottom: 16px;
+    display: inline-block;
+}
+
+.articles article h3{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article{
+    width: 30%;
+}
+
+.articles article img{
+    width: 100%;
+}
+
+.articles article img:hover{
+    width: 105%;
+    margin-right: 8px;
+}
+
+.articles article p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 50;
+}
+
+.articles article a{
+    background-color: rgb(42, 42, 192);
+    color: antiquewhite;
+    display: inline-block;
+    flex-wrap: wrap;
+    block-size: auto;
+    font-weight: bold;
+    margin: 4px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.articles article a:hover{
+    background-color: rgb(72, 72, 161);
+}
+
+body > header{
+    background-color: rgb(39, 27, 27);
+    padding: 16px;
+    color: azure;
+}
+
+.articles article header{
+    margin-left: 8px;
+    padding: 4px;
+    font-style: italic;
+}
+
+header h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 64px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 16px;
+}
+
+header li a{
+    text-decoration: none;
+    display: inline;
+    margin-left: 8px;
+}
+
+header li a:hover{
+    color: rgb(224, 224, 45);
+    text-decoration: underline;
+}
+
+section .container{
+    display: inline;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+#tecnologia{
+    background-color: rgb(21, 21, 43);
+}
+
+#tecnologia:hover{
+    background-color: rgb(32, 32, 75);
+}
+
+#entreterimento{
+    background-color: rgb(45, 61, 13);
+}
+
+#entreterimento:hover{
+    background-color: rgb(72, 97, 21);
+}
